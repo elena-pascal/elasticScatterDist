@@ -1,8 +1,9 @@
-name: environment
+name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - python
   - numpy
-  - matplotlib
-  - scipy
-  - plotly
+  - pip:
+    - scipy
+    - plotly
