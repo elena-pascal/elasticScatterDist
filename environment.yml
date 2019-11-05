@@ -5,5 +5,6 @@ dependencies:
   - python
   - numpy
   - pip:
+    - scimath
     - scipy
     - plotly
